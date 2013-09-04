@@ -1,0 +1,688 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Moment v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-21 11:11:39+0000\n"
+"Last-Translator: admin <tedy@kth.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: content.php:18
+#: content.php:26
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-image.php:15
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-link.php:15
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-quote.php:14
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-status.php:12
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-status.php:17
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content.php:17
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content.php:25
+#, php-format
+#@ requiredfoundation
+msgid "Permalink to %s"
+msgstr "Permalänk till %s"
+
+#: content.php:26
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content.php:25
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Featured"
+msgstr "Utvald"
+
+#: content.php:36
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-image.php:18
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-link.php:18
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-quote.php:17
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-status.php:20
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content.php:35
+#@ requiredfoundation
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Fortsätt att läsa <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:37
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-page.php:16
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content.php:36
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/image.php:89
+#@ requiredfoundation
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: functions.php:14
+#@ requiredstarter
+msgid "Meta Menu"
+msgstr ""
+
+#: functions.php:140
+#@ requiredstarter
+msgid " Read on! &rarr;"
+msgstr ""
+
+#: functions.php:278
+#@ default
+msgid "Companies"
+msgstr "Företag"
+
+#: functions.php:279
+#@ default
+msgid "Company"
+msgstr "Företag"
+
+#: functions.php:295
+#@ default
+msgid "Superiors"
+msgstr "Ledare"
+
+#: functions.php:296
+#@ default
+msgid "Superior"
+msgstr "Ledare"
+
+#: functions.php:311
+#@ default
+msgctxt "taxonomy general name"
+msgid "Company Types"
+msgstr "Företagstyper"
+
+#: functions.php:312
+#@ default
+msgctxt "taxonomy singular name"
+msgid "Company Type"
+msgstr "Företagstyp"
+
+#: functions.php:313
+#@ default
+msgid "Search Company Types"
+msgstr "Sök företagstyper"
+
+#: functions.php:314
+#@ default
+msgid "All Company Types"
+msgstr "Alla företagstyper"
+
+#: functions.php:315
+#@ default
+msgid "Parent Company Type"
+msgstr ""
+
+#: functions.php:316
+#@ default
+msgid "Parent Company Type:"
+msgstr ""
+
+#: functions.php:317
+#@ default
+msgid "Edit Company Type"
+msgstr ""
+
+#: functions.php:318
+#@ default
+msgid "Update Company Type"
+msgstr ""
+
+#: functions.php:319
+#@ default
+msgid "Add New Company Type"
+msgstr ""
+
+#: functions.php:320
+#@ default
+msgid "New Company Type Name"
+msgstr ""
+
+#: functions.php:321
+#@ default
+msgid "Company Type"
+msgstr ""
+
+#: searchform.php:11
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/searchform.php:11
+#@ requiredfoundation
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: searchform.php:14
+#: searchform.php:17
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/searchform.php:14
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/searchform.php:17
+#@ requiredfoundation
+msgid "Search"
+msgstr "Sök"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/404.php:19
+#@ requiredfoundation
+msgid "404 &ndash; What have you done? You broke the internet!"
+msgstr "404 &ndash; Vad har du gjort? Internet är trasigt!"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/404.php:26
+#@ requiredfoundation
+msgid "The page you are looking for is gone. Perhaps searching or one of the links below will get you back on track."
+msgstr "Sidan du letar efter finns tyvärr inte. Försök att söka eller gå tillbaka till förra sidan."
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/404.php:37
+#@ requiredfoundation
+msgid "Most Used Categories"
+msgstr "Mest använda kategorier"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/404.php:45
+#@ requiredfoundation
+msgid "Try looking in the monthly archives."
+msgstr "Försök att leta i månadsarkiven."
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:16
+#@ requiredfoundation
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Den här sidan är lösenordsskyddat. Skriv in lösenord för att se kommentarer."
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:32
+#, php-format
+#@ requiredfoundation
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En kommentar på &ldquo;%2$s&rdquo;"
+msgstr[1] "Flera kommentarer på &ldquo;%2$s&rdquo;"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:39
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:59
+#@ requiredfoundation
+msgid "Comment navigation"
+msgstr "Kommentarnavigation"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:40
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:60
+#@ requiredfoundation
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:41
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:61
+#@ requiredfoundation
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:71
+#@ requiredfoundation
+msgid "Comments are closed."
+msgstr "Kommentarfunktion avstängd"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:76
+#@ requiredfoundation
+msgid "Leave a Reply"
+msgstr "Lämna ett svar"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:76
+#, php-format
+#@ requiredfoundation
+msgid "Leave a Reply to %s"
+msgstr "Lämna svar till %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:79
+#, php-format
+#@ requiredfoundation
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du måste vara <a href=\"%s\">inloggad</a> för att kommentera."
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:83
+#, php-format
+#@ requiredfoundation
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Inloggad som <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:83
+#@ requiredfoundation
+msgid "Log out of this account"
+msgstr "Logga ut från detta konto"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:83
+#@ requiredfoundation
+msgid "Log out &raquo;"
+msgstr "Logga ut &raquo;"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:86
+#@ requiredfoundation
+msgid "Name"
+msgstr "Namn"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:86
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:90
+#@ requiredfoundation
+msgid " (required)"
+msgstr "(obligatorisk)"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:90
+#@ requiredfoundation
+msgid "Email (will not be published)"
+msgstr "Epost (kommer inte att visas offentligt)"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:94
+#@ requiredfoundation
+msgid "Website"
+msgstr "Hemsida"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:99
+#@ requiredfoundation
+msgid "Comment"
+msgstr "Kommentar"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:102
+#@ requiredfoundation
+msgid "You can use these tags: "
+msgstr "Du kan använda dessa taggar:"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/comments.php:103
+#@ requiredfoundation
+msgid "Submit Comment"
+msgstr "Skicka kommentar"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-image.php:15
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Image"
+msgstr "Bild"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-link.php:15
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Link"
+msgstr "Länk"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-none.php:12
+#@ requiredfoundation
+msgid "Nothing Found"
+msgstr "Inget hittat"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-none.php:16
+#@ requiredfoundation
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Beklagar, men inga resultat hittades för efterfrågad arkiv. Genom att söka kanske du hittar ett relevant inlägg."
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-quote.php:14
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Quote"
+msgstr "Citat"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/content-status.php:17
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Status"
+msgstr "Status"
+
+#. translators: used between list items, there is a space after the comma
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:17
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:27
+#@ requiredfoundation
+msgid ", "
+msgstr ","
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:21
+#, php-format
+#@ requiredfoundation
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Postad i</span> %2$s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:33
+#, php-format
+#@ requiredfoundation
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Taggad</span> %2$s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:43
+#@ requiredfoundation
+msgid "Leave a reply"
+msgstr "Lämna svar"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:43
+#@ requiredfoundation
+msgid "<b>1</b> Reply"
+msgstr "<b>1</b> Svar"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:43
+#@ requiredfoundation
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> Svar"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:52
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:494
+#, php-format
+#@ requiredfoundation
+msgid "About %s"
+msgstr "Om %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/entry-meta.php:56
+#, php-format
+#@ requiredfoundation
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Se alla inlägg av %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/footer.php:25
+#@ requiredfoundation
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/footer.php:25
+#@ requiredfoundation
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/footer.php:25
+#, php-format
+#@ requiredfoundation
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:92
+#@ requiredfoundation
+msgid "<p>This site runs on the <a href=\"http://themes.required.ch/\" title=\"required+ Themes\">required+ Foundation</a> Theme. Based on the awesome <a href=\"http://foundation.zurb.com/\" title=\"Rapid prototyping and building library from ZURB.\">Foundation</a> Framework by the humble folks at <a href=\"http://www.zurb.com/\" title=\"Design for people\">ZURB</a>.</p>"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:140
+#@ requiredfoundation
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:141
+#@ requiredfoundation
+msgid "Secondary Menu"
+msgstr "Sekundär meny"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:182
+#, php-format
+#@ requiredfoundation
+msgid "Page %s"
+msgstr "Sida %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:205
+#@ requiredfoundation
+msgid "&hellip; Continue reading &rarr;"
+msgstr "&hellip; Fortsätt läsa &rarr;"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:237
+#@ requiredfoundation
+msgid "Main Sidebar"
+msgstr "Huvudsidomeny"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:246
+#@ requiredfoundation
+msgid "Footer Area One"
+msgstr "Sidfotsområde ett"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:248
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:258
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:268
+#@ requiredfoundation
+msgid "An optional widget area for your site footer"
+msgstr "Ett frivilligt widgetområde för din sidfot"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:256
+#@ requiredfoundation
+msgid "Footer Area Two"
+msgstr "Sidfotsområde två"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:266
+#@ requiredfoundation
+msgid "Footer Area Three"
+msgstr "Sidfotsområde tre"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:285
+#@ requiredfoundation
+msgid "Post navigation"
+msgstr "Inläggsnavigation"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:351
+#@ requiredfoundation
+msgid "Pingback:"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:351
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:385
+#@ requiredfoundation
+msgid "Edit"
+msgstr "Redigera"
+
+#. translators: 1: comment author, 2: date and time
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:366
+#, php-format
+#@ requiredfoundation
+msgid "<h6>%1$s on %2$s <span class=\"says\">said:</span></h6>"
+msgstr "<h6>%1$s på %2$s <span class=\"says\">sade:</span></h6>"
+
+#. translators: 1: date, 2: time
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:372
+#, php-format
+#@ requiredfoundation
+msgid "%1$s at %2$s"
+msgstr "%1$s vid %2$s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:380
+#@ requiredfoundation
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:388
+#@ requiredfoundation
+msgid "Reply <span>&darr;</span>"
+msgstr "Svara <span>&darr;</span>"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:406
+#, php-format
+#@ requiredfoundation
+msgid "<h6>Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span> on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a></h6>"
+msgstr "<h6>Inlagd av <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span> den <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a></h6>"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:412
+#, php-format
+#@ requiredfoundation
+msgid "View all posts by %s"
+msgstr "Visa alla inlägg av %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:459
+#, php-format
+#@ requiredfoundation
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:474
+#, php-format
+#@ requiredfoundation
+msgid "Tag Archives: %s"
+msgstr "Taggarkiv: %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:489
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:500
+#, php-format
+#@ requiredfoundation
+msgid "Author Archives: %s"
+msgstr "Skribentsarkiv: %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:508
+#, php-format
+#@ requiredfoundation
+msgid "Daily Archives: %s"
+msgstr "Dagliga arkiv: %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:510
+#, php-format
+#@ requiredfoundation
+msgid "Monthly Archives: %s"
+msgstr "Månadsarkiv: %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:510
+#@ requiredfoundation
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:512
+#, php-format
+#@ requiredfoundation
+msgid "Yearly Archives: %s"
+msgstr "Årliga arkiv: %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:512
+#@ requiredfoundation
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:514
+#@ requiredfoundation
+msgid "Blog Archives"
+msgstr "Bloggarkiv"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/functions.php:522
+#, php-format
+#@ requiredfoundation
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/image.php:25
+#, php-format
+#@ requiredfoundation
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publicerad </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> vid <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> i <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/image.php:40
+#@ requiredfoundation
+msgid "Image navigation"
+msgstr "Bildnavigation"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/image.php:41
+#@ requiredfoundation
+msgid "&larr; Previous"
+msgstr "&larr; Föregående"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/image.php:42
+#@ requiredfoundation
+msgid "Next &rarr;"
+msgstr "Nästa &rarr;"
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-foundation.php:30
+#@ requiredfoundation
+msgid "&laquo;"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-foundation.php:31
+#@ requiredfoundation
+msgid "&raquo;"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-foundation.php:53
+#, php-format
+#@ requiredfoundation
+msgid "Please assign a menu to the primary menu location under %1$s or %2$s the design."
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-foundation.php:54
+#, php-format
+#@ requiredfoundation
+msgid "<a href=\"%s\">Menus</a>"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-foundation.php:57
+#, php-format
+#@ requiredfoundation
+msgid "<a href=\"%s\">Customize</a>"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-foundation.php:267
+#@ requiredfoundation
+msgid "&larr; Home"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:58
+#@ requiredfoundation
+msgid "Button"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:64
+#@ requiredfoundation
+msgid "Lead Paragraph"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:69
+#@ requiredfoundation
+msgid "Label"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:74
+#@ requiredfoundation
+msgid "Panel"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:80
+#@ requiredfoundation
+msgid "Panel callout"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:87
+#@ requiredfoundation
+msgid "Radius (Panel, Label, Button)"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:93
+#@ requiredfoundation
+msgid "Round (Label, Button)"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:99
+#@ requiredfoundation
+msgid "Alert (Label, Button)"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:104
+#@ requiredfoundation
+msgid "Success (Label, Button)"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:109
+#@ requiredfoundation
+msgid "Secondary (Label, Button)"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:114
+#@ requiredfoundation
+msgid "Subheader (Headings)"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:119
+#@ requiredfoundation
+msgid "Keyboard CMD"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/includes/req-mce.php:123
+#@ requiredfoundation
+msgid "Cite"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/page-templates/off-canvas-page.php:20
+#@ requiredfoundation
+msgid "Menu"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/sidebar.php:15
+#@ requiredfoundation
+msgid "There are no widgets yet!"
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/sidebar.php:16
+#@ requiredfoundation
+msgid "Please add some real widgets, because otherwise your visitors get nothing but whitespace here."
+msgstr ""
+
+#: /Users/tedyw/Dropbox/Server/htdocs/moment2014/wp-content/themes/required-foundation/sidebar.php:17
+#@ requiredfoundation
+msgid "Add widgets"
+msgstr ""
+

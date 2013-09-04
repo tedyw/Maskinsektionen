@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: required+ Foundation v1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-21 10:32:46+0000\n"
+"Last-Translator: Joaquín González <gilkudik@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:19
+#@ requiredfoundation
+msgid "404 &ndash; What have you done? You broke the internet!"
+msgstr "404 &ndash; Contenido no encontrado"
+
+#: 404.php:26
+#@ requiredfoundation
+msgid "The page you are looking for is gone. Perhaps searching or one of the links below will get you back on track."
+msgstr "La página que estás buscando ya no está. Puede que utilizando alguno de los siguientes enlaces te ayude a regresar al camino."
+
+#: 404.php:37
+#@ requiredfoundation
+msgid "Most Used Categories"
+msgstr "Categorías más utilizadas"
+
+#: 404.php:45
+#@ requiredfoundation
+msgid "Try looking in the monthly archives."
+msgstr "Trata de buscar en los archivos mensuales."
+
+#: comments.php:16
+#@ requiredfoundation
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Esta entrada está protegida. Introduzca la contraseña para ver los comentarios."
+
+#: comments.php:32
+#, php-format
+#@ requiredfoundation
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: comments.php:39 comments.php:59
+#@ requiredfoundation
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:40 comments.php:60
+#@ requiredfoundation
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: comments.php:41 comments.php:61
+#@ requiredfoundation
+msgid "Newer Comments &rarr;"
+msgstr "Nuevos comentarios &rarr;"
+
+#: comments.php:71
+#@ requiredfoundation
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:76
+#@ requiredfoundation
+msgid "Leave a Reply"
+msgstr "Deja un comentario"
+
+#: comments.php:76
+#, php-format
+#@ requiredfoundation
+msgid "Leave a Reply to %s"
+msgstr "Deja un comentario a %s"
+
+#: comments.php:79
+#, php-format
+#@ requiredfoundation
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Tienes que <a href=\"%s\">iniciar sesión</a> para publicar un comentario."
+
+#: comments.php:83
+#, php-format
+#@ requiredfoundation
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Sesión iniciada como <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: comments.php:83
+#@ requiredfoundation
+msgid "Log out of this account"
+msgstr "Desconectarse de esta cuenta"
+
+#: comments.php:83
+#@ requiredfoundation
+msgid "Log out &raquo;"
+msgstr "Desconectarse &raquo;"
+
+#: comments.php:86
+#@ requiredfoundation
+msgid "Name"
+msgstr "Nombre"
+
+#: comments.php:86 comments.php:90
+#@ requiredfoundation
+msgid " (required)"
+msgstr " (requerido)"
+
+#: comments.php:90
+#@ requiredfoundation
+msgid "Email (will not be published)"
+msgstr "Email (no será publicado)"
+
+#: comments.php:94
+#@ requiredfoundation
+msgid "Website"
+msgstr "Sitio web"
+
+#: comments.php:99
+#@ requiredfoundation
+msgid "Comment"
+msgstr "Comentario"
+
+#: comments.php:102
+#@ requiredfoundation
+msgid "You can use these tags: "
+msgstr "Puedes usar las siguientes etiquetas:"
+
+#: comments.php:103
+#@ requiredfoundation
+msgid "Submit Comment"
+msgstr "Publicar un comentario"
+
+#: content-image.php:15 content-link.php:15 content-quote.php:14
+#: content-status.php:12 content-status.php:17 content.php:17 content.php:25
+#, php-format
+#@ requiredfoundation
+msgid "Permalink to %s"
+msgstr "Enlace a %s"
+
+#: content-image.php:15
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Image"
+msgstr "Imagen"
+
+#: content-image.php:18 content-link.php:18 content-quote.php:17
+#: content-status.php:20 content.php:35
+#@ requiredfoundation
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Seguir leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-link.php:15
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Link"
+msgstr "Enlace"
+
+#: content-none.php:12
+#@ requiredfoundation
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#: content-none.php:16
+#@ requiredfoundation
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Disculpa, pero no hemos encontrado resultados para el archivo solicitado. Tal vez la búsqueda le ayudará a encontrar una entrada relacionada."
+
+#: content-page.php:16 content.php:36 image.php:89
+#@ requiredfoundation
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: content-quote.php:14
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Quote"
+msgstr "Cita"
+
+#: content-status.php:17
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Status"
+msgstr "Estado"
+
+#: content.php:25
+#@ requiredfoundation
+msgctxt "Post format title"
+msgid "Featured"
+msgstr "Destacados"
+
+#. translators: used between list items, there is a space after the comma
+#: entry-meta.php:17 entry-meta.php:27
+#@ requiredfoundation
+msgid ", "
+msgstr ","
+
+#: entry-meta.php:21
+#, php-format
+#@ requiredfoundation
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Publicado en</span> %2$s"
+
+#: entry-meta.php:33
+#, php-format
+#@ requiredfoundation
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Etiquetado</span> %2$s"
+
+#: entry-meta.php:43
+#@ requiredfoundation
+msgid "Leave a reply"
+msgstr "Deja un comentario"
+
+#: entry-meta.php:43
+#@ requiredfoundation
+msgid "<b>1</b> Reply"
+msgstr "<b>1</b> Comentario"
+
+#: entry-meta.php:43
+#@ requiredfoundation
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> Comentarios"
+
+#: entry-meta.php:52 functions.php:494
+#, php-format
+#@ requiredfoundation
+msgid "About %s"
+msgstr "Acerca de %s"
+
+#: entry-meta.php:56
+#, php-format
+#@ requiredfoundation
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Ver todas las entradas escritas por %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:25
+#@ requiredfoundation
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:25
+#@ requiredfoundation
+msgid "Semantic Personal Publishing Platform"
+msgstr "Plataforma Semántica de Publicación Personal"
+
+#: footer.php:25
+#, php-format
+#@ requiredfoundation
+msgid "Proudly powered by %s"
+msgstr "Orgullosamente potenciado por %s"
+
+#: functions.php:92
+#@ requiredfoundation
+msgid "<p>This site runs on the <a href=\"http://themes.required.ch/\" title=\"required+ Themes\">required+ Foundation</a> Theme. Based on the awesome <a href=\"http://foundation.zurb.com/\" title=\"Rapid prototyping and building library from ZURB.\">Foundation</a> Framework by the humble folks at <a href=\"http://www.zurb.com/\" title=\"Design for people\">ZURB</a>.</p>"
+msgstr "<p>Este sitio utilize el tema <a href=\"http://themes.required.ch/\" title=\"required+ Themes\">required+ Foundation</a>. Basado en el asombroso <a href=\"http://foundation.zurb.com/\" title=\"Rapid prototyping and building library from ZURB.\">Foundation</a> Framework desarrollado pro los humildes amigos de <a href=\"http://www.zurb.com/\" title=\"Design for people\">ZURB</a>.</p>"
+
+#: functions.php:140
+#@ requiredfoundation
+msgid "Primary Menu"
+msgstr "Menu primario"
+
+#: functions.php:141
+#@ requiredfoundation
+msgid "Secondary Menu"
+msgstr "Menu secundario"
+
+#: functions.php:182
+#, php-format
+#@ requiredfoundation
+msgid "Page %s"
+msgstr "Página %s"
+
+#: functions.php:205
+#@ requiredfoundation
+msgid "&hellip; Continue reading &rarr;"
+msgstr "&hellip; Continuar leyendo &rarr;"
+
+#: functions.php:237
+#@ requiredfoundation
+msgid "Main Sidebar"
+msgstr "Barra lateral principal"
+
+#: functions.php:246
+#@ requiredfoundation
+msgid "Footer Area One"
+msgstr "Pie de página uno"
+
+#: functions.php:248 functions.php:258 functions.php:268
+#@ requiredfoundation
+msgid "An optional widget area for your site footer"
+msgstr "Un área de widget opcional para el pie de página del sitio"
+
+#: functions.php:256
+#@ requiredfoundation
+msgid "Footer Area Two"
+msgstr "Pie de página dos"
+
+#: functions.php:266
+#@ requiredfoundation
+msgid "Footer Area Three"
+msgstr "Pie de página tres"
+
+#: functions.php:285
+#@ requiredfoundation
+msgid "Post navigation"
+msgstr "Navegación de Entradas"
+
+#: functions.php:351
+#@ requiredfoundation
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:351 functions.php:385
+#@ requiredfoundation
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: 1: comment author, 2: date and time
+#: functions.php:366
+#, php-format
+#@ requiredfoundation
+msgid "<h6>%1$s on %2$s <span class=\"says\">said:</span></h6>"
+msgstr "<h6>%1$s el %2$s <span class=\"says\">comentó:</span></h6>"
+
+#. translators: 1: date, 2: time
+#: functions.php:372
+#, php-format
+#@ requiredfoundation
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#: functions.php:380
+#@ requiredfoundation
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#: functions.php:388
+#@ requiredfoundation
+msgid "Reply <span>&darr;</span>"
+msgstr "Responder <span>&darr;</span>"
+
+#: functions.php:406
+#, php-format
+#@ requiredfoundation
+msgid "<h6>Posted by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span> on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a></h6>"
+msgstr "<h6>Publicado por <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span> el <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a></h6>"
+
+#: functions.php:412
+#, php-format
+#@ requiredfoundation
+msgid "View all posts by %s"
+msgstr "Ver todas las entradas publicadas por %s"
+
+#: functions.php:459
+#, php-format
+#@ requiredfoundation
+msgid "Category Archives: %s"
+msgstr "Archivos de la categoría: %s"
+
+#: functions.php:474
+#, php-format
+#@ requiredfoundation
+msgid "Tag Archives: %s"
+msgstr "Archivo de etiquetas: %s"
+
+#: functions.php:489 functions.php:500
+#, php-format
+#@ requiredfoundation
+msgid "Author Archives: %s"
+msgstr "Archivo del autor: %s"
+
+#: functions.php:508
+#, php-format
+#@ requiredfoundation
+msgid "Daily Archives: %s"
+msgstr "Archivos del día: %s"
+
+#: functions.php:510
+#, php-format
+#@ requiredfoundation
+msgid "Monthly Archives: %s"
+msgstr "Archivos mensuales: %s"
+
+#: functions.php:510
+#@ requiredfoundation
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: functions.php:512
+#, php-format
+#@ requiredfoundation
+msgid "Yearly Archives: %s"
+msgstr "Archivos anuales: %s"
+
+#: functions.php:512
+#@ requiredfoundation
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: functions.php:514
+#@ requiredfoundation
+msgid "Blog Archives"
+msgstr "Archivos del Blog"
+
+#: functions.php:522
+#, php-format
+#@ requiredfoundation
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda para: %s"
+
+#: image.php:25
+#, php-format
+#@ requiredfoundation
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:40
+#@ requiredfoundation
+msgid "Image navigation"
+msgstr "Navegación de imágenes"
+
+#: image.php:41
+#@ requiredfoundation
+msgid "&larr; Previous"
+msgstr "&larr; Anteriores"
+
+#: image.php:42
+#@ requiredfoundation
+msgid "Next &rarr;"
+msgstr "Siguientes &rarr;"
+
+#: includes/req-foundation.php:30
+#@ requiredfoundation
+msgid "&laquo;"
+msgstr ""
+
+#: includes/req-foundation.php:31
+#@ requiredfoundation
+msgid "&raquo;"
+msgstr ""
+
+#: includes/req-foundation.php:53
+#, php-format
+#@ requiredfoundation
+msgid "Please assign a menu to the primary menu location under %1$s or %2$s the design."
+msgstr "Asigne un menú a la ubicación del menú principal en %1$s o %2$s el diseño."
+
+#: includes/req-foundation.php:54
+#, php-format
+#@ requiredfoundation
+msgid "<a href=\"%s\">Menus</a>"
+msgstr ""
+
+#: includes/req-foundation.php:57
+#, php-format
+#@ requiredfoundation
+msgid "<a href=\"%s\">Customize</a>"
+msgstr "<a href=\"%s\">Personalice</a>"
+
+#: includes/req-foundation.php:261
+#@ requiredfoundation
+msgid "&larr; Home"
+msgstr ""
+
+#: includes/req-mce.php:58
+#@ requiredfoundation
+msgid "Button"
+msgstr "Botón"
+
+#: includes/req-mce.php:64
+#@ requiredfoundation
+msgid "Lead Paragraph"
+msgstr "Parrafo principal"
+
+#: includes/req-mce.php:69
+#@ requiredfoundation
+msgid "Label"
+msgstr "Etiqueta"
+
+#: includes/req-mce.php:74
+#@ requiredfoundation
+msgid "Panel"
+msgstr "Panel"
+
+#: includes/req-mce.php:80
+#@ requiredfoundation
+msgid "Panel callout"
+msgstr "Panel de llamada"
+
+#: includes/req-mce.php:87
+#@ requiredfoundation
+msgid "Radius (Panel, Label, Button)"
+msgstr "Radio (Panel, Etiqueta, Botón)"
+
+#: includes/req-mce.php:93
+#@ requiredfoundation
+msgid "Round (Label, Button)"
+msgstr "Circulo (Etiqueta, Botón)"
+
+#: includes/req-mce.php:99
+#@ requiredfoundation
+msgid "Alert (Label, Button)"
+msgstr "Alerta (Etiqueta, Botón)"
+
+#: includes/req-mce.php:104
+#@ requiredfoundation
+msgid "Success (Label, Button)"
+msgstr "Exitó (Etiqueta, Botón)"
+
+#: includes/req-mce.php:109
+#@ requiredfoundation
+msgid "Secondary (Label, Button)"
+msgstr "Secundario (Label, Button)"
+
+#: includes/req-mce.php:114
+#@ requiredfoundation
+msgid "Subheader (Headings)"
+msgstr "Cabecera secundaria (Títulares)"
+
+#: includes/req-mce.php:119
+#@ requiredfoundation
+msgid "Keyboard CMD"
+msgstr "Tecla CMD"
+
+#: page-templates/off-canvas-page.php:20
+#@ requiredfoundation
+msgid "Menu"
+msgstr "Menu"
+
+#: searchform.php:11
+#@ requiredfoundation
+msgid "Search for:"
+msgstr "Buscar por:"
+
+#: searchform.php:14 searchform.php:17
+#@ requiredfoundation
+msgid "Search"
+msgstr "Buscar"
+
+#: sidebar.php:15
+#@ requiredfoundation
+msgid "There are no widgets yet!"
+msgstr "No hay widgets aún"
+
+#: sidebar.php:16
+#@ requiredfoundation
+msgid "Please add some real widgets, because otherwise your visitors get nothing but whitespace here."
+msgstr "Por favor, añada algunos widgets reales, porque de lo contrario sus visitantes tendrán nada más que un espacio en blanco aquí."
+
+#: sidebar.php:17
+#@ requiredfoundation
+msgid "Add widgets"
+msgstr "Agregar widgets"
+

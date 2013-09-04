@@ -1,0 +1,25 @@
+/*
+Theme Name: Maskinsektionen
+Theme URI: http://codeorig.in/
+Author: Code Origin
+Author URI: http://codeorig.in/
+Description: For Moment 2014
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 2.0
+Template: required-foundation
+Text Domain: requiredstarter
+*/
+
+/*
+	Make the template work
+*/
+@import url(../required-foundation/style.css);
+
+body, h1, h2, h3, h4, h5, h6 { font-family: 'Garamond', serif; font-weight: 300; }
+
+#site-title { font-weight: 600; }
+
+.required-header .inline-list {
+	margin-top: 14px;
+}
