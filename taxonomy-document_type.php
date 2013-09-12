@@ -31,7 +31,7 @@ get_header(); ?>
 					/* Get the archive title for the specific archive we are
 					 * dealing with.
 					 */
-					_e("Documents", "maskinsektionen");
+					echo single_term_title("", false);
 
 					/* Since we called the_post() above, we need to
 					 * rewind the loop back to the beginning that way
@@ -57,7 +57,7 @@ get_header(); ?>
 						    echo $term_list;
 						}
 					?>
-				</div>	
+				</div>
 
 				<table>
 	            	<thead>

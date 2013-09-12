@@ -44,7 +44,7 @@
                         </nav>
                     </div>
                 </hgroup>
-                <?php if(!is_search() && !is_404()): ?>
+                <?php if(is_page_template("scroller.php")): ?>
                     <?php $parent = $post->ID; ?>
                     <?php $parent_name = $post->post_name; ?>
                     <?php $parent_title = the_title("","",false); ?>

@@ -46,22 +46,26 @@
             <?php $superiors = new WP_Query($args);
             if($superiors->have_posts()):?>
             <div class="row document-list">
-	            <table class="eight columns">
+            	<div class="eight columns">
+            	<h1><?php _e("Latest Documents", "maskinsektionen"); ?></h1>
+	            <table>
 	            	<thead>
 	            		<th><?php _e("Document", "maskinsektionen"); ?></th>
 	            		<th><?php _e("Category", "maskinsektionen"); ?></th>
 						<th><?php _e("Published", "maskinsektionen"); ?></th>
-						<th><?php _e("Description", "maskinsektionen") ?></th>
+						<th class="hide-for-small"><?php _e("Description", "maskinsektionen") ?></th>
 	            	</thead>
 	            	<?php while ($superiors->have_posts()) : $superiors->the_post(); ?>
 	            	<tr>
 	            		<td><a title="<?php the_title(); ?>" href="<?php echo get_field("document"); ?>"><?php the_title(); ?></a></td>
-						<td><?php echo get_the_term_list( get_the_ID(), "document_type", '', ', ' ); ?></td>
+						<td><?php echo get_the_term_list( get_the_ID(), "document_category", '', ', ' ); ?></td>
 						<td><?php required_posted_on(); ?></td>
-						<td><?php the_content(); ?></td>
+						<td class="hide-for-small"><?php the_content(); ?></td>
 					</tr>
 					<?php endwhile; wp_reset_postdata(); // end of the loop. ?> 
 	            </table>
+	            <p><a href="<?php echo get_post_type_archive_link( 'document' ); ?>"><button class="button"><?php _e("Browse all here", "maskinsektionen"); ?></button></a></p>
+	        	</div>
 	            <aside id="sidebar" class="four columns" role="complementary">
 					<div class="sidebar-box">
 						<?php get_sidebar(); ?>
@@ -127,20 +131,21 @@ query_posts('post_type=page&order=ASC&orderby=menu_order&post_parent='.$parent);
                         'orderby' => 'menu_order'
                         );     
             ?>
-            <?php $superiors = new WP_Query($args);
-            if($superiors->have_posts()):?>
+            <?php $organisations = new WP_Query($args);
+            if($organisations->have_posts()):?>
             <div class="row">
-            	<div class="twelve columns company-container">
+            	<div class="twelve columns organisation-container">
 					<ul class="block-grid four-up mobile-two-up">
-						<?php while ($superiors->have_posts()) : $superiors->the_post(); ?>
-						<li class="company">
-							<?php if (has_post_thumbnail( $post->ID )) :  ?>
-								<?php the_post_thumbnail("square"); ?>
-			            	<?php else: ?>
-			            		<div class="placeholder">
-			            			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder.jpg" />
-			            		</div>
-			            	<?php endif; ?>
+						<?php while ($organisations->have_posts()) : $organisations->the_post(); ?>
+						<li class="organisation">
+							<a class="organisation-link" title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">
+								<?php if (has_post_thumbnail( $post->ID )) :  ?>
+									<?php the_post_thumbnail("square"); ?>
+				            	<?php else: ?>
+				            		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder.jpg" />
+				            	<?php endif; ?>
+				            	<div class="organisation-title"><?php the_title(); ?></div>
+			            	</a>
 						</li>
 						<?php endwhile; wp_reset_postdata(); // end of the loop. ?> 
 					</ul>
@@ -149,10 +154,37 @@ query_posts('post_type=page&order=ASC&orderby=menu_order&post_parent='.$parent);
 			<?php endif; ?>
 		<?php endif; ?>
 
-		<?php if($post->post_name == "projektgruppen"): ?>
+		<?php if($post->post_name == "funktionarer"): ?>
 
 	 		<?php       $args = array(
-                        'post_type' => 'superior',
+                        'post_type' => 'steward',
+                        'posts_per_page' => -1,
+                        'order' => 'ASC',
+                        'orderby' => 'menu_order'
+                        );     
+            ?>
+            <?php $stewards = new WP_Query($args);
+            if($stewards->have_posts()):?>
+            <div class="row">
+            	<div class="twelve columns organisation-container">
+					<ul class="block-grid four-up mobile-two-up">
+						<?php while ($stewards->have_posts()) : $stewards->the_post(); ?>
+						<li class="organisation">
+							<a class="organisation-link" title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">
+				            	<div class="organisation-title"><?php the_title(); ?></div>
+			            	</a>
+						</li>
+						<?php endwhile; wp_reset_postdata(); // end of the loop. ?> 
+					</ul>
+				</div>	
+			</div>
+			<?php endif; ?>
+		<?php endif; ?>
+
+		<?php if($post->post_name == "styrelsen"): ?>
+
+	 		<?php       $args = array(
+                        'post_type' => 'board_member',
                         'posts_per_page' => -1,
                         'order' => 'ASC',
                         'orderby' => 'menu_order'
@@ -161,33 +193,25 @@ query_posts('post_type=page&order=ASC&orderby=menu_order&post_parent='.$parent);
             <?php $superiors = new WP_Query($args);
             if($superiors->have_posts()):?>
             <div class="row">
-            	<div class="twelve columns company-container">
+            	<div class="twelve columns organisation-container">
 					<ul class="block-grid four-up mobile-two-up">
 						<?php while ($superiors->have_posts()) : $superiors->the_post(); ?>
-						<li class="superior">
-							<?php if (has_post_thumbnail( $post->ID )) :  
-									$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "full");
-							?>
-			            		<div class="superior-container image-container">
-			            			<div class="superior-image" style="background-image:url(<?php echo $image[0];?>)">
-			            				<div class="overlay">
-			            					<div class="inner">
-				            					<div class="email"><span><?php echo str_replace("@", "(at)", get_field("contact-email")); ?></span></div>
-				            					<div class="phone"><span><?php echo get_field("contact-phone"); ?></span></div>
-				            					<div class="name"><span><?php the_title() ?></span></div>
-				            					<div class="title"><span><?php echo get_field("contact-title"); ?></span></div>
-			            					</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            	<?php endif; ?>
+						<li class="organisation">
+							<a class="organisation-link" title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">
+								<?php if (has_post_thumbnail( $post->ID )) :  ?>
+									<?php the_post_thumbnail("square"); ?>
+				            	<?php else: ?>
+				            		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder.jpg" />
+				            	<?php endif; ?>
+				            	<div class="organisation-title"><?php the_title(); ?></div>
+			            	</a>
 						</li>
 						<?php endwhile; wp_reset_postdata(); // end of the loop. ?> 
 					</ul>
 				</div>	
 			</div>
 			<?php endif; ?>
-		<?php endif; ?>		
+		<?php endif; ?>
 
 	</div>
 </section>

@@ -307,7 +307,7 @@ function custom_post_organisation() {
 			'has_archive' => true,
 			'rewrite' => array('slug' => 'organisations'),
 			'taxonomies' => array('organisation_type'),
-			'supports' => array( 'title', 'thumbnail', 'revisions', 'page-attributes' )
+			'supports' => array( 'title', 'editor', 'thumbnail', 'revisions', 'page-attributes' )
 		)
 	);
 }
@@ -347,41 +347,19 @@ function custom_post_superior() {
 add_action( 'init', 'custom_post_superior' );
 
 function create_custom_taxonomies() {
-	$organisation_labels = array(
-		'name'              => _x( 'Organisation Types', 'taxonomy general name' ),
-		'singular_name'     => _x( 'Organisation Type', 'taxonomy singular name' ),
-		'search_items'      => __( 'Search Organisation Types' ),
-		'all_items'         => __( 'All Organisation Types' ),
-		'parent_item'       => __( 'Parent Organisation Type' ),
-		'parent_item_colon' => __( 'Parent Organisation Type:' ),
-		'edit_item'         => __( 'Edit Organisation Type' ),
-		'update_item'       => __( 'Update Organisation Type' ),
-		'add_new_item'      => __( 'Add New Organisation Type' ),
-		'new_item_name'     => __( 'New Organisation Type Name' ),
-		'menu_name'         => __( 'Organisation Type' ),
-	);
-
-	$organisation_args = array(
-		'hierarchical'      => true,
-		'labels'            => $organisation_labels,
-		'show_ui'           => true,
-		'show_admin_column' => true,
-		'query_var'         => true,
-		'rewrite'           => array( 'slug' => 'organisation' ),
-	);
 
 	$document_labels = array(
-		'name'              => _x( 'Document Types', 'taxonomy general name' ),
-		'singular_name'     => _x( 'Document Type', 'taxonomy singular name' ),
-		'search_items'      => __( 'Search Document Types' ),
-		'all_items'         => __( 'All Document Types' ),
-		'parent_item'       => __( 'Parent Document Type' ),
-		'parent_item_colon' => __( 'Parent Document Type:' ),
-		'edit_item'         => __( 'Edit Document Type' ),
-		'update_item'       => __( 'Update Document Type' ),
-		'add_new_item'      => __( 'Add New Document Type' ),
-		'new_item_name'     => __( 'New Document Type Name' ),
-		'menu_name'         => __( 'Document Type' ),
+		'name'              => _x( 'Document Categories', 'taxonomy general name' ),
+		'singular_name'     => _x( 'Document Category', 'taxonomy singular name' ),
+		'search_items'      => __( 'Search Document Categories' ),
+		'all_items'         => __( 'All Document Categories' ),
+		'parent_item'       => __( 'Parent Document Category' ),
+		'parent_item_colon' => __( 'Parent Document Category:' ),
+		'edit_item'         => __( 'Edit Document Category' ), 
+		'update_item'       => __( 'Update Document Category' ),
+		'add_new_item'      => __( 'Add New Document Category' ),
+		'new_item_name'     => __( 'New Document Category' ),
+		'menu_name'         => __( 'Document Categories' ),
 	);
 
 	$document_args = array(
@@ -393,7 +371,135 @@ function create_custom_taxonomies() {
 		'rewrite'           => array( 'slug' => 'document' ),
 	);
 
-	register_taxonomy( 'organisation_type', array( 'organisation' ), $organisation_args );
-	register_taxonomy( 'document_type', array( 'documents' ), $document_args );
+	register_taxonomy( 'document_category', array( 'document' ), $document_args );
 }
 add_action( 'init', 'create_custom_taxonomies', 0 );
+
+/**
+ * Initialize the sponsor type
+ * 
+ * @action init
+ */
+function roots_sponsor_init(){
+	$labels = array(
+		'name' => _x('Sponsors', 'post type general name', 'roots'),
+		'singular_name' => _x('Sponsor', 'post type singular name', 'roots'),
+		'add_new' => _x('Add New', 'book', 'roots'),
+		'add_new_item' => __('Add New Sponsor', 'roots'),
+		'edit_item' => __('Edit Sponsor', 'roots'),
+		'new_item' => __('New Sponsor', 'roots'),
+		'all_items' => __('All Sponsors', 'roots'),
+		'view_item' => __('View Sponsor', 'roots'),
+		'search_items' => __('Search Sponsors', 'roots'),
+		'not_found' =>  __('No sponsors found', 'roots'),
+		'not_found_in_trash' => __('No sponsors found in Trash', 'roots'),
+		'parent_item_colon' => '',
+		'menu_name' => __('Sponsors', 'roots')
+	);
+
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => false,
+		'show_ui' => true,
+		'show_in_menu' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'has_archive' => false,
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt')
+	);
+
+	register_post_type('sponsor', $args);
+	
+	// Now register the skills taxonomy
+}
+add_action('init', 'roots_sponsor_init');
+
+/**
+ * Initialize the steward type
+ * 
+ * @action init
+ */
+function roots_steward_init(){
+	$labels = array(
+		'name' => _x('Stewards', 'post type general name', 'roots'),
+		'singular_name' => _x('Steward', 'post type singular name', 'roots'),
+		'add_new' => _x('Add New', 'book', 'roots'),
+		'add_new_item' => __('Add New Steward', 'roots'),
+		'edit_item' => __('Edit Steward', 'roots'),
+		'new_item' => __('New Steward', 'roots'),
+		'all_items' => __('All Stewards', 'roots'),
+		'view_item' => __('View Steward', 'roots'),
+		'search_items' => __('Search Stewards', 'roots'),
+		'not_found' =>  __('No stewards found', 'roots'),
+		'not_found_in_trash' => __('No stewards found in Trash', 'roots'),
+		'parent_item_colon' => '',
+		'menu_name' => __('Stewards', 'roots')
+	);
+
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => false,
+		'show_ui' => true,
+		'show_in_menu' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'has_archive' => false,
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array( 'title', 'editor', 'author', 'excerpt' )
+	);
+
+	register_post_type('steward', $args);
+	
+	// Now register the skills taxonomy
+}
+add_action('init', 'roots_steward_init');
+
+/**
+ * Initialize the board member type
+ * 
+ * @action init
+ */
+function roots_board_member_init(){
+	$labels = array(
+		'name' => _x('Board members', 'post type general name', 'roots'),
+		'singular_name' => _x('Board member', 'post type singular name', 'roots'),
+		'add_new' => _x('Add New', 'book', 'roots'),
+		'add_new_item' => __('Add New Board member', 'roots'),
+		'edit_item' => __('Edit Board member', 'roots'),
+		'new_item' => __('New Board member', 'roots'),
+		'all_items' => __('All Board members', 'roots'),
+		'view_item' => __('View Board member', 'roots'),
+		'search_items' => __('Search Board members', 'roots'),
+		'not_found' =>  __('No board members found', 'roots'),
+		'not_found_in_trash' => __('No board members found in Trash', 'roots'),
+		'parent_item_colon' => '',
+		'menu_name' => __('Board members', 'roots')
+	);
+
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => false,
+		'show_ui' => true,
+		'show_in_menu' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'has_archive' => false,
+		'hierarchical' => false,
+		'menu_position' => null,
+		'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt' )
+	);
+
+	register_post_type('board_member', $args);
+	
+	// Now register the skills taxonomy
+}
+add_action('init', 'roots_board_member_init');

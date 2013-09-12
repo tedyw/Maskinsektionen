@@ -14,7 +14,7 @@
         	<input type="text" value="" name="s" id="s" placeholder="<?php _e( 'Search', 'requiredfoundation' ); ?>">
       	</div>
       	<div class="four mobile-one columns">
-        	<input type="submit" id="searchsubmit" value="<?php _e( 'Search', 'requiredfoundation' ); ?>" class="postfix button">
+        	<input type="submit" id="searchsubmit" value="<?php _e( 'Search', 'requiredfoundation' ); ?>" class="button">
       	</div>
     </div>
 </form>

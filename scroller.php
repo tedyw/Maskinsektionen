@@ -23,7 +23,9 @@ get_header(); ?>
 	                    $news = new WP_Query($args);
             			if($news->have_posts()):
             ?>
-        	<div class="twelve columns"><h1><?php _e("Latest", "maskinsektionen") ?></h1></div>
+        	<div class="twelve columns">
+        		<div class="entry-title"><h1><?php _e("Latest", "maskinsektionen") ?></h1></div>
+        	</div>
             <?php while ($news->have_posts()) : $news->the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class("twelve columns"); ?>>
 				<div class="row">
